@@ -4,7 +4,6 @@ var launchpad = require("./launchpad").create;
 var launchpadColours = require("./launchpad").colours;
 app.listen(3000);
 console.log('Listening on port 3000');
-
 var pad = new launchpad();
 
 
